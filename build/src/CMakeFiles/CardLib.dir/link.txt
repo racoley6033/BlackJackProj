@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libCardLib.a CMakeFiles/CardLib.dir/Card.cpp.o CMakeFiles/CardLib.dir/Deck.cpp.o CMakeFiles/CardLib.dir/Player.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libCardLib.a

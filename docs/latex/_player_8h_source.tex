@@ -1,0 +1,32 @@
+\doxysection{Player.\+h}
+\hypertarget{_player_8h_source}{}\label{_player_8h_source}\index{/Users/reedcoley/Documents/coding/CSCI-\/207/CppBlackjack/inc/Player.h@{/Users/reedcoley/Documents/coding/CSCI-\/207/CppBlackjack/inc/Player.h}}
+\mbox{\hyperlink{_player_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_card_8h}{Card.h}}"{}}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_player}{Player}}\ \{\ \textcolor{comment}{//\ create\ class\ for\ player\ }}
+\DoxyCodeLine{00018\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00019\ \ \ \ \ \mbox{\hyperlink{class_player}{Player}}(\textcolor{keyword}{const}\ std::string\&\ name);\ \ }
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{comment}{//\ accessors}}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keyword}{const}\ std::string\&\ getName()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{int}\ getHandValue()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{bool}\ isBusted()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{bool}\ hasBlackjack()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{comment}{//\ need\ other\ ideas\ }}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordtype}{void}\ Player::addCardToHand(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_card}{Card}}\ \&card);}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{void}\ Player::clearHand();}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00032\ \ \ \ \ std::string\ name;}
+\DoxyCodeLine{00033\ \ \ \ \ std::vector<Card>\ hand;}
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keywordtype}{int}\ calculateHandValue()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00035\ \};}
+
+\end{DoxyCode}

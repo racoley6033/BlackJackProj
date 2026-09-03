@@ -1,0 +1,32 @@
+\doxysection{Card.\+h}
+\hypertarget{_card_8h_source}{}\label{_card_8h_source}\index{/Users/reedcoley/Documents/coding/CSCI-\/207/CppBlackjack/inc/Card.h@{/Users/reedcoley/Documents/coding/CSCI-\/207/CppBlackjack/inc/Card.h}}
+\mbox{\hyperlink{_card_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <stdexcept>}}
+\DoxyCodeLine{00014\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_card}{Card}}}
+\DoxyCodeLine{00017\ \{}
+\DoxyCodeLine{00018\ \textcolor{keyword}{private}:\ \textcolor{comment}{//\ not\ visible\ during\ game\ unless\ called\ on}}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{int}\ \_value;}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{string}\ \_strValue;}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{int}\ \_suit;}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{string}\ \_strSuit;}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{bool}\ \_isFaceUp;}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{comment}{//\ Converts\ value,\ suit\ to\ string\ }}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{void}\ convertValueToString(\textcolor{keywordtype}{int}\ val);}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keywordtype}{void}\ convertSuitToString(\textcolor{keywordtype}{int}\ suit);}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{comment}{//\ Constructor\ for\ public\ card\ values\ }}
+\DoxyCodeLine{00031\ \ \ \ \ \mbox{\hyperlink{class_card}{Card}}(\textcolor{keywordtype}{int}\ value,\ \textcolor{keywordtype}{int}\ suit,\ \textcolor{keywordtype}{bool}\ isFaceUp);}
+\DoxyCodeLine{00032\ \ \ \ \ }
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{comment}{//\ Get\ the\ string\ of\ the\ card}}
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keywordtype}{string}\ ToString()\ \textcolor{keyword}{const};\ \ \textcolor{comment}{//\ marked\ as\ const?\ ask\ professor\ }}
+\DoxyCodeLine{00035\ \};}
+
+\end{DoxyCode}
